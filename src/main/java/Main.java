@@ -36,6 +36,9 @@ public class Main {
             Integer summary = 0;
             Field[] fields = demoClassObj.getDeclaredFields();
             for (Field field : fields){
+                field.setAccessible(true);
+            }
+            for (Field field : fields){
                 Integer value = (Integer) field.get(demoClass);
                 summary += value;
             }

@@ -1,25 +1,10 @@
 @Sum
 public class DemoClass {
     @Sum
-    Integer a = 10;
+    private Integer a = 10;
     @Sum
-    Integer b = 20;
+    private Integer b = 20;
 
-    public Integer getA() {
-        return a;
-    }
-
-    public void setA(Integer a) {
-        this.a = a;
-    }
-
-    public Integer getB() {
-        return b;
-    }
-
-    public void setB(Integer b) {
-        this.b = b;
-    }
 }
 
 /*public class SumAnalyzer {
